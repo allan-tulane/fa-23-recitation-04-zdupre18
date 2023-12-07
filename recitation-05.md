@@ -23,7 +23,7 @@ so you will have to curry `qsort` to test different methods of
 choosing pivots. Implement variants of `qsort` that correspond to
 selecting the first element of the input list as the pivot, and to
 selecting a random pivot.
-.  
+
 .  
 .  
 .  
@@ -44,12 +44,15 @@ different list sizes. The `print_results` function in `main.py` gives
 a table of results, but feel free to use code from Lab 1 to plot
 the results as well. 
 
+.  O(n^2). in this lab with noting these are the bounds the the average time was O(n*log(n)) and for ssort it was n2. I used an input list of[100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000, 5000000] and with this came back with those times. 
 
 
 **1c)**
 
 Python uses a sorting algorithm called [*Timsort*](https://en.wikipedia.org/wiki/Timsort), designed by Tim Peters. Compare the fastest of your sorting implementations to the Python
 sorting function `sorted`, conducting the tests in 3b above. 
+
+my fastest sorting times of O(n2) compared to the function sort. Timsort has as running time of O(n log n)
 
 
 
